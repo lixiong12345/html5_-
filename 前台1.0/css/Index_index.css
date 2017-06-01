@@ -1,0 +1,918 @@
+/*特价客房*/
+
+.f14453721551
+
+	{
+
+		width:646px;
+
+		height:436px;
+
+		background-color:#ffffff;
+
+		border:1px solid #e9e9e9;
+
+		border-top:3px solid #a7764e;
+
+		float:left;
+
+		margin-bottom:20px;
+
+	}
+
+.f14453721552
+
+	{
+
+		line-height:41px;
+
+		height:41px;
+
+		border-bottom:1px solid #e9e9e9;
+
+		background-color:#f8f8f8;
+
+	}
+
+.f14453721553
+
+	{
+
+		color:#333333;
+
+		font-size:18px;
+
+		float:left;
+
+		padding-left:18px;
+
+		padding-right:18px;
+
+		border-right:1px solid #d3d3d3;
+
+		background-color:#ffffff;
+
+	}
+
+.f14453721552 .f14453721554
+
+	{
+
+		float:right;
+
+		padding-right:12px;
+
+		color:#7c7c7c;
+
+	}
+
+.f14453721555
+
+	{
+
+		padding:5px 2px;
+
+	}
+
+.f14453721557
+
+	{
+
+		margin-bottom:6px;
+
+		padding-bottom:6px;
+
+		border-bottom:1px dashed #d8d8d8;
+
+	}
+
+.f14453721569
+
+	{
+
+		overflow:hidden;
+
+		padding:7px 5px;
+
+	}
+
+.f14453721558
+
+	{
+
+		width:133px;
+
+		height:102px;
+
+		float:left;
+
+	}
+
+.f14453721560
+
+	{
+
+		width:120px;
+
+		height:90px;
+
+		padding:2px;
+
+		border:1px solid #dcdcdc;
+
+		background-color:#FFF;
+
+		margin:3px;
+
+	}
+
+.f14453721560:hover
+
+	{
+
+		width:126px;
+
+		height:94px;
+
+		transition:all 0.3s linear;
+
+		-moz-transition:all 0.3s linear;
+
+		-ms-transition:all 0.3s linear;
+
+		margin:0px;
+
+		-webkit-transition:all 0.3s linear;
+
+	}
+
+.f14453721561
+
+	{
+
+		width:470px;
+
+		float:right;
+
+	}
+
+.f14453721561 .f14453721562
+
+	{
+
+		display:block;
+
+		color:#333333;
+
+		font-size:14px;
+
+		line-height:30px;
+
+		padding-bottom: 10px;
+
+	}
+
+.f14453721563
+
+	{
+
+		margin-bottom:3px;
+
+	}
+
+.f14453721564
+
+	{
+
+		color:#707070;
+
+		margin-right:10px;
+
+		text-decoration:line-through;
+
+	}
+
+.f14453721565
+
+	{
+
+		color:#da0000;
+
+	}
+
+.f14453721566
+
+	{
+
+		color:#7c7c7c;		
+
+		margin-bottom:7px;
+
+
+	}
+
+.f14453721567 .f14453721568
+
+	{
+
+		display:block;
+
+		background:url(../image/ioc11.png) no-repeat;
+
+		width:60px;
+
+		height:21px;
+
+		text-align:center;
+
+		line-height:21px;
+
+		color:#FFF;
+
+	}
+
+.f14453721569:hover
+
+	{
+
+		background-color:#a7764e;
+
+	}
+
+.f14453721569:hover .f14453721561 .f14453721562
+
+	{
+
+		color:#FFF;
+
+	}
+
+.f14453721569:hover .f14453721561 .f14453721563 .f14453721564
+
+	{
+
+		color:#FFF;
+
+	}
+
+.f14453721569:hover .f14453721561 .f14453721566
+
+	{
+		color:#FFF;
+
+	}
+
+.f14453721569:hover .f14453721561 .f14453721567 .f14453721568
+
+	{
+
+		background:url(../image/ioc10.png) no-repeat;
+
+		color:#6f4624;
+
+	}
+
+/*配套服务*/
+
+.f14489621649
+
+	{
+
+		width:298px;
+
+		height:436px;
+
+		background-color:#ffffff;
+
+		border:1px solid #e9e9e9;
+
+		border-top:3px solid #a7764e;
+
+		float:right;
+
+		background-image:url(../image/pei.jpg);
+
+		background-repeat:no-repeat;
+
+		background-position:right bottom;
+
+	}
+
+.f14489621650
+
+	{
+
+		color:#666666;
+
+		line-height:24px;
+
+	}
+
+/*客房展示*/
+
+.f14457532171
+
+	{
+
+		background-color:#FFF;
+
+		padding-bottom:25px;
+
+	}
+
+.f14457532172
+
+	{
+
+		width:980px;
+
+		margin-left:auto;
+
+		margin-right:auto;
+
+		overflow:hidden;
+
+	}
+
+.f14457532173
+
+	{
+
+		text-align:center;
+
+		font-size:23px;
+
+		color:#a7764e;
+
+		margin-top:30px;
+
+		background:url(../image/ioc12.png) repeat-x;
+
+		background-position:center 40px;
+
+	}
+
+.f14457532173 span
+
+	{
+
+		color:#dadada;
+
+		font-size:16px;
+
+		background-color:#FFF;
+
+		padding-left:10px;
+
+		padding-right:10px;
+
+	}
+
+.f14457532175
+
+	{
+
+		overflow:hidden;
+
+		margin-top:20px;
+
+		text-align:center;
+
+		margin-bottom:40px;
+
+	}
+
+.f14457532176
+
+	{
+
+		display:inline-block;
+
+	}
+
+.f14457532177
+
+	{
+
+		float:left;
+
+		width:219px;
+
+		height:308px;
+
+		background-color:#f1f1f1;
+
+		margin-left:10px;
+
+		margin-right:10px;
+
+	}
+
+.f14457532178
+
+	{
+
+		width:210px;
+
+		height:158px;
+
+		padding:10px 5px 5px 5px;
+
+	}
+
+.f14457532177 .f14457532178 .f14457532180
+
+	{
+
+		width:194px;
+
+		height:143px;
+
+		border:4px solid #c9c9c9;
+
+		margin:4px;
+
+		transition:all 0.3s linear;
+
+		-moz-transition:all 0.3s linear;
+
+		-ms-transition:all 0.3s linear;
+
+		-webkit-transition:all 0.3s linear;
+
+	}
+
+.f14457532181
+
+	{
+
+		text-align:left;
+
+		padding:3px 9px;
+
+	}
+
+.f14457532181 .f14457532182
+
+	{
+
+		display:block;
+
+		color:#242424;
+
+		font-size:14px;
+
+		margin-bottom:6px;
+
+		text-align:center;
+
+	}
+
+.f14457532183
+
+	{
+
+		color:#838383;
+
+		line-height:20px;
+
+		margin-bottom:8px;
+		margin-left: 8px;
+
+	}
+.f14457532184{
+	margin-left: 36%;
+
+	margin-top: 20px;
+}
+.f14457532181 .f14457532184
+
+	{
+
+		display:block;
+
+		width:64px;
+
+		height:23px;
+
+		background-color:#ececec;
+
+		border:1px solid #c4c4c4;
+
+		border-radius:5px;
+
+		color:#333333;
+
+		text-align:center;
+
+		line-height:23px;
+
+	}
+
+.f14457532178 .f14457532180:hover
+
+	{
+
+		width:202px;
+
+		border:4px solid #FFF;
+
+		height:152px;
+
+		margin:0px;
+
+		transition:all 0.3s linear;
+
+		-moz-transition:all 0.3s linear;
+
+		-ms-transition:all 0.3s linear;
+
+		-webkit-transition:all 0.3s linear;
+
+	}
+
+.f14457532177:hover
+
+	{
+
+		background-color:#a7764e;
+
+	}
+
+.f14457532177:hover .f14457532178 .f14457532180		
+
+	{
+
+		border:4px solid #FFF;
+
+	}
+
+.f14457532177:hover .f14457532181 .f14457532182		
+
+	{
+
+		color:#FFF;
+
+	}
+
+.f14457532177:hover .f14457532183	
+
+	{
+
+		color:#FFF;
+
+	}
+
+.f14457532185
+
+	{
+
+		text-align:center;
+
+		color:#a7764e;
+
+		line-height:22px;
+
+		font-size:14px;
+
+	}
+
+.f14457532186
+
+	{
+
+		background:url(../image/ioc12.png) repeat-x;
+
+		background-position:center;
+
+	}
+
+.f14457532186 .f14457532187
+
+	{
+
+		background-color:#FFF;
+
+		padding:0px 10px;
+
+		color:#818181;
+
+	}
+
+/*news*/
+
+.f14464563287
+
+	{
+
+		overflow:hidden;
+
+		width:980px;
+
+		margin-left:auto;
+
+		margin-right:auto;
+
+		padding-top:38px;
+
+		padding-bottom:36px;
+
+	}
+
+.f14487523181
+
+	{
+
+		width:473px;
+
+		height:345px;
+
+		background-color:#ffffff;
+
+		border:1px solid #e9e9e9;
+
+		border-top:3px solid #a7764e;
+
+		float:left;
+
+	}
+
+.f14487523185
+
+	{
+
+		margin:15px;	
+
+	}
+
+.f14487523186
+
+	{
+
+		overflow:hidden;
+
+		margin-bottom:10px;
+
+	}
+
+.f14487523187
+
+	{
+
+		width:146px;
+
+		height:111px;
+
+		float:left;
+
+	}
+
+.f14487523189	
+
+	{
+
+		width:134px;
+
+		height:99px;
+
+		border:1px solid #d1d1d1;
+
+		margin:5px;
+
+		transition:all 0.3s linear;
+
+		-moz-transition:all 0.3s linear;
+
+		-ms-transition:all 0.3s linear;
+
+		-webkit-transition:all 0.3s linear;
+
+	}
+
+.f14487523189:hover
+
+	{
+
+		width:144px;
+
+		height:109px;
+
+		margin:0px;
+
+		transition:all 0.3s linear;
+
+		-moz-transition:all 0.3s linear;
+
+		-ms-transition:all 0.3s linear;
+
+		-webkit-transition:all 0.3s linear;
+
+	}
+
+.f14487523188
+
+	{
+
+		width:285px;
+
+		float:right;
+
+	}
+
+.f14487523188 .f14487523190
+
+	{
+
+		display:block;
+
+		margin-top:5px;
+
+		line-height:26px;
+
+		color:#282828;
+
+		font-size:14px;
+
+		border-bottom:1px solid #c8c8c8;
+
+		height:26px;
+
+	}
+
+.f14487523191
+
+	{
+
+		color:#797979;
+
+		font-size:14px;
+
+		line-height:20px;
+
+		
+
+		margin-top:5px;
+
+	}
+
+.f14487523192
+
+	{
+
+		padding:5px 0px;
+
+		border-bottom:1px solid #c0c0c0;
+
+	}
+
+.f13354735723
+
+	{
+
+		overflow:hidden;
+
+		line-height:26px;
+
+	}
+
+.f13354735723 .f14487523193
+
+	{
+
+		color:#454545;
+
+		font-size:14px;
+
+		float:left;
+
+		display:block;
+
+		margin-left:10px;
+
+	}
+
+.f14487523194
+
+	{
+
+		float:right;
+
+		display:block;
+
+		font-size:14px;
+
+		color:#454545;
+
+		margin-right:10px;
+
+	}
+
+.f13354735723:hover
+
+	{
+
+		background-color:#a7764e;
+
+		border-radius:6px;
+
+	}
+
+.f13354735723:hover .f14487523193
+
+	{
+
+		color:#FFF;
+
+	}
+
+.f13354735723:hover .f14487523194
+
+	{
+
+		color:#FFF;
+
+	}
+
+/*旅游攻略*/
+
+.f144745327812
+
+	{
+
+		width:473px;
+
+		height:345px;
+
+		background-color:#ffffff;
+
+		border:1px solid #e9e9e9;
+
+		border-top:3px solid #a7764e;
+
+		float:right;
+
+	}
+
+.f144525385235
+
+	{
+
+		margin:10px 15px;
+
+	}
+
+.f144525385233
+
+	{
+
+		margin:15px;
+
+		width:448px;
+
+		height:107px;
+
+	}
+
+.f144525385234
+
+	{
+
+		width:436px;
+
+		height:95px;
+
+		border:1px solid #dcdbdb;
+
+		margin:5px;
+
+		transition:all 0.3s linear;
+
+		-moz-transition:all 0.3s linear;
+
+		-ms-transition:all 0.3s linear;
+
+		-webkit-transition:all 0.3s linear;
+
+	}
+
+.f144525385234:hover
+
+	{
+
+		width:446px;
+
+		height:97px;
+
+		margin:4px 0px;
+
+		border:1px solid #dcdbdb;
+
+		transition:all 0.3s linear;
+
+		-moz-transition:all 0.3s linear;
+
+		-ms-transition:all 0.3s linear;
+
+		-webkit-transition:all 0.3s linear;
+
+	}

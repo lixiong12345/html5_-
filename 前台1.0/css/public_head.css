@@ -1,0 +1,253 @@
+﻿@charset "utf-8";
+
+/******************************************************
+
+
+
+ 功能：主样式表
+
+ 
+
+ ******************************************************/
+
+
+
+/* 全局背景、字体、字号、颜色、行高、页边距等 */
+
+html {
+
+	-webkit-text-size-adjust: none;
+
+}
+
+* {
+
+	margin:0px;
+
+	padding:0px;
+
+}
+
+body {
+
+	margin:0px;
+
+	padding:0px;
+
+	font-size:12px;
+
+	color:#000;
+
+	font-family:tahoma, arial, 微软雅黑, 宋体, sans-serif;
+
+	background-color:#f1f1f1;
+
+}
+
+/* CSS3盒子模型 */
+
+ul, li, dl, dt, dd, ol, h1, h2, h3, h4, h5, h6, p {
+
+	list-style-type:none;
+
+	margin:0;
+
+	padding:0;
+
+	display:block;
+
+}
+
+em, i {
+
+	font-style:normal;
+
+}
+
+em {
+
+	display:inline-block;
+
+	vertical-align:middle;
+
+}
+
+fieldset {
+
+	border:none;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+input, select, textarea {
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+/* 公共匹配样式 */
+
+* {
+
+	outline:none;
+
+}
+
+a, img {
+
+	border:none;
+
+}
+
+img {
+
+	border:none;
+
+	vertical-align:middle;
+
+}
+
+/* 链接 */
+
+a {
+
+	text-decoration:none;
+
+	color:#333;
+
+}
+
+a:hover {
+
+	color:#333;
+
+	text-decoration:none;
+
+}
+
+a:visited {
+
+	text-decoration:none;
+
+	color:#333;
+
+}
+
+a:active {
+
+	text-decoration:none;
+
+	color:#333;
+
+}
+
+input[type=text] {
+
+	font-size:12px;
+
+	color:#666;
+
+	font-family:"微软雅黑";
+
+}
+
+input[type=button], input[type=submit] {
+
+	cursor:pointer;
+
+	font-family:"微软雅黑";
+
+}
+
+.g00004 {
+   margin-left: 5%;
+
+   margin-bottom: 40px;
+
+   padding-bottom: 20px;
+
+	overflow:hidden;
+
+	height:auto;
+
+	width:auto;
+
+	border:1px solid #e9e9e9;
+
+	border-top:3px solid #a7764e;
+
+	background-color:#FFF;
+
+
+}
+
+.g00005 {
+
+	clear:both;
+
+	overflow:hidden;
+
+	background-color:#1c1c1c;
+
+}
+
+
+.g00002 {
+
+	overflow:hidden;
+
+	margin-left:auto;
+
+	margin-right:auto;
+
+	width:1020px;
+
+	margin-top:20px;
+
+}
+
+.g00001 {
+
+	margin-left:auto;
+
+	margin-right:auto;
+
+	width:1004px;
+
+	overflow:hidden;
+
+	position:absolute;
+
+	left:50%;
+
+	margin-left:-502px;
+
+	z-index:100;
+
+}
+
+.g000014 {
+
+	overflow:hidden;
+
+	float:right;
+
+	width:765px;
+
+}
+
+.g000013 {
+
+	float:left;
+
+	width:220px;
+
+}
+
