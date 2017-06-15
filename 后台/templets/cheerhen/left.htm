@@ -1,0 +1,35 @@
+  <div class="g00003" id="left">
+    <div class="f144873517851">
+
+  <div class="f144873517852">
+
+{dede:type typeid="9"}
+        <div class="f144873517853"> [field:typename/]</div>
+{/dede:type}
+
+  </div>
+
+  <a href="javascript:;" class="class_down"><img style="display:none;" class="f144873517854" src="/image/ioc17.png" /></a>
+  <ul class="f144873517855">
+    <div class="f144873517856">
+
+
+
+{dede:channelartlist typeid='top'  typeid='9' currentstyle='on'}
+            <li class="f144873517857 {dede:field.currentstyle/}">
+        <h3 class="f144873517858"><a class="BY5maaxCdj" href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a></h3>
+                <ul class="f144873517859">
+
+ {dede:sql sql='Select * from dede_arctype where reid=~id~  and ishidden != 1 ORDER BY id limit 0,20'}
+                    <li class="f144873517860"> <a class="f144873517861" href="[field:typedir function='str_replace("{cmspath}","",@me)'/]">[field:typename/]</a>
+                      </li>
+{/dede:sql}
+
+                  </ul>
+              </li>
+{/dede:channelartlist}
+  
+          </div>
+  </ul>
+  <a href="javascript:;" class="class_on"><img style="display:none;" class="f144873517862" src="/image/ioc18.png" /></a> </div>
+  </div>

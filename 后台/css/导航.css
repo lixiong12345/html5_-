@@ -1,0 +1,14 @@
+.navigat {
+	width:100% ;
+	
+	margin-left: 12%;
+}
+.navigat ul li {
+	display: inline-block;
+	padding-left: 3.6%;
+
+}
+.navigat li a {
+	font-size: 150%;
+    line-height: 80px;
+}

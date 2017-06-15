@@ -1,0 +1,88 @@
+
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>搜索页-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/css/download_details.css" rel="stylesheet" type="text/css"/>
+<link href="/css/download_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/goods_details.css" rel="stylesheet" type="text/css"/>
+<link href="/css/goods_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/goods_search.css" rel="stylesheet" type="text/css"/>
+<link href="/css/Index_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/message_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/news_details.css" rel="stylesheet" type="text/css"/>
+<link href="/css/news_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_bottom.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_head.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_left.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_page.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_right.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_top.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_top2.css" rel="stylesheet" type="text/css"/>
+<link href="/css/recruit_details.css" rel="stylesheet" type="text/css"/>
+<link href="/css/recruit_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/text_index.css" rel="stylesheet" type="text/css"/>
+<script src="/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/js/common.js" type="text/javascript"></script>
+<script src="/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+{dede:include filename="head.htm"/}
+
+
+<div class="g00002">
+
+
+<!-- {dede:include filename="left.htm"/} -->
+
+  <div class="g00004" id="right">
+    <div class="f14466174184">
+      <div class="f14466174185">
+        <div class="f14453721552">
+      <div class="f14453721553">
+              </div>
+      
+  <div class="Vx9yKNITbV">
+  <ul class="P3dRtu5cqF">
+    <li class="Mq9Rle5IN2">当前位置：</li>
+    <li class="slFWr3Xw0b"><a class="xsfEM6Zg6i" href="index.php">首页</a>&nbsp;&nbsp;<a>搜索结果</a>  </li>
+      </ul>
+</div></div>      </div>
+    </div>
+    <div class="f14466174186">
+      <div class="f14466174187">
+        <ul class="f14466174188">
+
+
+{dede:list perpage='9'}
+                    <li class="f14466174189">
+            <div class="f144661741810"><a class="f144661741811" href="[field:arcurl/]"><img class="f144661741860" src="[field:picname/]" /></a></div>
+            <div class="f144661741861"> <a class="f144661741862" href="[field:arcurl/]">[field:title/]</a> </div>
+          </li>
+{/dede:list}
+                  </ul>
+      </div>
+    </div>
+    <div class="f144661741815">
+      <div class="f14466107051">
+  <div class="f14466107052">
+
+
+    {dede:pagelist listsize='4'/}
+
+
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+
+{dede:include filename="footer.htm"/}
+
+</body></html>

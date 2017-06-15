@@ -1,0 +1,122 @@
+
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description'  function='html2text(@me)'/}" />
+<link href="/css/download_details.css" rel="stylesheet" type="text/css"/>
+<link href="/css/download_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/goods_details.css" rel="stylesheet" type="text/css"/>
+<link href="/css/goods_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/goods_search.css" rel="stylesheet" type="text/css"/>
+<link href="/css/Index_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/message_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/news_details.css" rel="stylesheet" type="text/css"/>
+<link href="/css/news_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_bottom.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_head.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_left.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_page.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_right.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_top.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_top2.css" rel="stylesheet" type="text/css"/>
+<link href="/css/recruit_details.css" rel="stylesheet" type="text/css"/>
+<link href="/css/recruit_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/text_index.css" rel="stylesheet" type="text/css"/>
+<script src="/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/js/common.js" type="text/javascript"></script>
+<script src="/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+{dede:include filename="head.htm"/}
+
+
+
+<div class="g00002">
+
+
+
+<!-- {dede:include filename="left.htm"/} -->
+
+
+  <div class="g00004">
+    <div class="c1448872169">
+      <div class="f14453721552">
+      <div class="f14453721553">
+        {dede:field.seotitle /}      </div>
+      
+  <div class="Vx9yKNITbV">
+  <ul class="P3dRtu5cqF">
+    <li class="Mq9Rle5IN2">当前位置：</li>
+    <li class="slFWr3Xw0b">{dede:field name='position'/} </li>
+        
+      </ul>
+</div></div>    </div>
+    <div class="c1448872173">
+      <div class="f14488721901">
+      <div class="f14474578231">
+      	<div><span>客房预订</span></div>
+      </div>
+
+
+        <form action="/plus/diy.php" method="post" enctype="multipart/form-data" onsubmit="return return_message()" id="form" class="f14488721902">
+
+<input type="hidden" name="action" value="post" />
+<input type="hidden" name="diyid" value="1" />
+<input type="hidden" name="do" value="2" />
+          <div class="f14488721906">
+                        <dl class="f14488721907">
+              <dt class="f14488721908">房型<span>*</span></dt>
+              <dd class="f14488721909">
+                                <input class="f144887219010" name="fx" type="text" id="room" size="0" />
+                              </dd>
+            </dl>
+                        <dl class="f14488721907">
+              <dt class="f14488721908">到店<span>*</span></dt>
+              <dd class="f14488721909">
+                                <input name="dd" class="f144887219017" type="text" id="to_shop" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" size="0" />
+                              </dd>
+            </dl>
+                        <dl class="f14488721907">
+              <dt class="f14488721908">离店<span>*</span></dt>
+              <dd class="f14488721909">
+                                <input name="ld" class="f144887219017" type="text" id="departure" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" size="0" />
+                              </dd>
+            </dl>
+                        <dl class="f14488721907">
+              <dt class="f14488721908">姓名<span>*</span></dt>
+              <dd class="f14488721909">
+                                <input class="f144887219010" name="xm" type="text" id="name" size="0" />
+                              </dd>
+            </dl>
+                        <dl class="f14488721907">
+              <dt class="f14488721908">电话<span>*</span></dt>
+              <dd class="f14488721909">
+                                <input class="f144887219010" name="dh" type="text" id="phone" size="0" />
+                              </dd>
+            </dl>
+
+<input type="hidden" name="dede_fields" value="fx,text;dd,text;ld,text;xm,text;dh,text" />
+<input type="hidden" name="dede_fieldshash" value="5a60c75abaf86ed871c0d6d457e84254" />
+
+                        <dl class="f14436873648">              
+                <input class="f14436873649" name="submit" type="submit" value="提交">
+            </dl>
+          </div>
+        </form>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{dede:include filename="footer.htm"/}
+
+</body></html>

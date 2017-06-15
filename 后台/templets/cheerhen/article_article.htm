@@ -1,0 +1,86 @@
+
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description  function='html2text(@me)'/}" />
+<link href="/css/download_details.css" rel="stylesheet" type="text/css"/>
+<link href="/css/download_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/goods_details.css" rel="stylesheet" type="text/css"/>
+<link href="/css/goods_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/goods_search.css" rel="stylesheet" type="text/css"/>
+<link href="/css/Index_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/message_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/news_details.css" rel="stylesheet" type="text/css"/>
+<link href="/css/news_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_bottom.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_head.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_left.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_page.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_right.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_top.css" rel="stylesheet" type="text/css"/>
+<link href="/css/public_top2.css" rel="stylesheet" type="text/css"/>
+<link href="/css/recruit_details.css" rel="stylesheet" type="text/css"/>
+<link href="/css/recruit_index.css" rel="stylesheet" type="text/css"/>
+<link href="/css/text_index.css" rel="stylesheet" type="text/css"/>
+<script src="/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/js/common.js" type="text/javascript"></script>
+<script src="/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+{dede:include filename="head.htm"/}
+
+
+<div class="g00002">
+
+
+<!-- {dede:include filename="left.htm"/} -->
+
+  <div class="g00004" id="right">
+    <div class="f14464847035">
+      <div class="f14464847036">
+        <div class="f14453721552">
+
+{dede:type}
+      <div class="f14453721553">
+        [field:typename/]      </div>
+{/dede:type}
+
+      
+  <div class="Vx9yKNITbV">
+  <ul class="P3dRtu5cqF">
+    <li class="Mq9Rle5IN2">当前位置：</li>
+    <li class="slFWr3Xw0b">{dede:field name='position'/} </li>
+        
+      </ul>
+</div></div>      </div>
+    </div>
+
+
+
+    <div class="f14464847351">
+
+            <div class="f14464847352">{dede:field.title/}</div>
+      <div class="f14464847353">发布时间：{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}</div>
+      <div class="bdsharebuttonbox view-share bdshare-button-style0-16" data-bd-bind="1466645968793"> <a href="#" class="bds_more" data-cmd="more"></a> <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a> <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a> <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a> <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a> <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a> </div>
+
+
+      {dede:field.body/}
+
+
+                  <div class="f14464847355">{dede:prenext get='pre'/}</div>
+          </div>
+
+    <div class="f144478231687">
+         <a class="f144478231688" href="{dede:global.cfg_basehost/}/plus/list.php?tid=4">返回</a></div>
+  </div>
+</div>
+
+{dede:include filename="footer.htm"/}
+
+
+</body></html>
