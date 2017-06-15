@@ -1,0 +1,2 @@
+INSERT INTO `dede_diyform1` VALUES('1','0','343','20:00','12:00','分泌蛋白','189656685005');
+INSERT INTO `dede_diyform1` VALUES('2','0','42','95','213','过年好','15689887521');

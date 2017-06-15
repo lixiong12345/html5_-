@@ -1,0 +1,1 @@
+INSERT INTO `dede_search_keywords` VALUES('1','客房','客房','1','4','1495604775','0','0');
